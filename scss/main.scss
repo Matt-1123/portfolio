@@ -1,2 +1,9 @@
 // MAIN SASS FILE
 // SASS needs to get compiled down to CSS - do this with Node SASS
+
+$primary-color: #444;
+
+body{
+  background: $primary-color;
+  color: #fff;
+}
