@@ -128,6 +128,29 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.7rem;
 
+  .image {
+    width: 100%;
+    border: 3px solid #fff;
+    height: 167px;
+    background-position: center;
+    background-size: cover;
+  }
+  .item:nth-child(1) .image{
+    background-image: url("../img/accordion.png");
+  }
+  .item:nth-child(2) .image{
+    background-image: url("../img/calculator.png");
+  }
+  .item:nth-child(3) .image{
+    background-image: url("../img/drumkit.png");
+  }
+  .item:nth-child(4) .image{
+    background-image: url("../img/city-search.png");
+  }
+  .item:nth-child(5) .image{
+    background-image: url("../img/clock.png");
+  }
+
   img {
     width: 100%;
     border: 3px solid #fff;

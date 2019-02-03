@@ -190,6 +190,22 @@ main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 0.7rem; }
+  .projects .image {
+    width: 100%;
+    border: 3px solid #fff;
+    height: 167px;
+    background-position: center;
+    background-size: cover; }
+  .projects .item:nth-child(1) .image {
+    background-image: url("../img/accordion.png"); }
+  .projects .item:nth-child(2) .image {
+    background-image: url("../img/calculator.png"); }
+  .projects .item:nth-child(3) .image {
+    background-image: url("../img/drumkit.png"); }
+  .projects .item:nth-child(4) .image {
+    background-image: url("../img/city-search.png"); }
+  .projects .item:nth-child(5) .image {
+    background-image: url("../img/clock.png"); }
   .projects img {
     width: 100%;
     border: 3px solid #fff; }
