@@ -59,7 +59,11 @@ main {
   min-height: calc(100vh - 60px); //this will create a sticky footer
 
   .icons {
+    display: inline-block;
+    width: auto;
+    padding: 5px;
     margin-top: 1rem;
+    border-bottom: 3px solid $secondary-color;
 
     a {
       padding: 0.4rem;
@@ -145,7 +149,7 @@ main {
   margin-top: 1rem;
 
   div {
-    font-size: 2rem;
+    font-size: 1.6rem;
     border: 3px #fff solid;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
