@@ -293,13 +293,16 @@ main {
   .boxes div {
     font-size: 1.5em; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
+  main {
+    padding: 2rem; }
   main#home h1 {
-    margin-top: 10vh; }
+    margin-top: 20vh;
+    font-size: 4em; }
   .projects {
     grid-template-columns: 1fr; } }
