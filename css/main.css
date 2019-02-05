@@ -268,10 +268,13 @@ main {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center; }
+    text-align: center;
+    padding: 2rem; }
     main .lg-heading {
       line-height: 1;
-      margin-bottom: 1rem; }
+      margin-bottom: 1rem;
+      margin-top: 20vh;
+      font-size: 4em; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
@@ -299,10 +302,5 @@ main {
     grid-template-columns: repeat(2, 1fr); } }
 
 @media screen and (max-width: 500px) {
-  main {
-    padding: 2rem; }
-  main#home h1 {
-    margin-top: 20vh;
-    font-size: 4em; }
   .projects {
     grid-template-columns: 1fr; } }
