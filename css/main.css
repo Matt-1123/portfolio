@@ -273,8 +273,10 @@ main {
     main .lg-heading {
       line-height: 1;
       margin-bottom: 1rem;
-      margin-top: 20vh;
+      margin-top: 10vh;
       font-size: 4em; }
+  #home .lg-heading {
+    margin-top: 20vh; }
   ul.menu-nav,
   div.menu-branding {
     float: none;
